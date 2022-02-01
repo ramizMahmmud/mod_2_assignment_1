@@ -1,0 +1,65 @@
+h1 {
+    text-align: center;
+}
+div{
+    border: 2px solid black;
+    margin: 10px;
+    background-color: gray;
+}
+.chicken{
+    width: 150px;
+    text-align: center;
+    background-color: rgb(187, 80, 133);
+    float:right;
+    margin: 0px;
+    padding: 10px;
+    border-left:2px solid black;
+    border-bottom: 2px solid black;;
+
+}
+.beef{
+    width: 150px;
+    text-align: center;
+    background-color: rgb(168, 18, 18) ;
+    float:right;
+    margin: 0px;
+    padding: 10px;
+    border-left:2px solid black;
+    border-bottom: 2px solid black;;
+
+}
+.sushi{
+    width: 150px;
+    text-align: center;
+    background-color:khaki ;
+    float:right;
+    margin: 0px;
+    padding: 10px;
+    border-left:2px solid black;
+    border-bottom: 2px solid black;;
+
+}
+p{
+    clear: both;
+    padding:10px;
+}
+@media screen and (min-width:992px) {
+    .container{
+        display:flex;
+    }
+    
+    }
+@media (min-width:768px) and (max-width: 991px ) {
+    body{
+        background-color: rgb(206, 152, 152);
+    
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .sbox {
+        grid-column: 1/span 2; /*grid-clumn: 1/3 */
+    }
+    
+}
